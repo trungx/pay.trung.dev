@@ -1,0 +1,43 @@
+html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+}
+body{
+    max-width: 640px;
+    margin: 0 auto;
+}
+.tab-head{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    /* flex:1; */
+}
+ul.tab-head li {
+    flex:1;
+    /* flex-grow: 1; */
+}
+ul.tab-head li button.nav-link{
+    width: 100%;
+}
+ul.wallet-head{
+    justify-content: center;
+    justify-items: center;
+}
+ul.wallet-head li {
+    flex-grow: 1;
+}
+.right-tab{
+    margin-left: 800px;
+}
+.align-items-end{
+    justify-content: flex-end;
+}
+.bank_no{
+    cursor: pointer;
+}
+.img_bank{
+    width: 100%;
+}
+.tab-content{
+    width: 100%;
+}

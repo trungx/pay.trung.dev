@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Trả tiền cho Trung đi!!!!</title>
+</head>
+
+<body>
+
+  <div class="container mt-2">
+
+    <ul class="nav nav-pills mb-3 tab-head" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-banktf-tab" data-bs-toggle="pill" data-bs-target="#pills-banktf"
+          type="button" role="tab" aria-controls="pills-tpb" aria-selected="true">Bank transfer (TK Ngân Hàng)</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-ewallet-tab" data-bs-toggle="pill" data-bs-target="#pills-ewallet"
+          type="button" role="tab" aria-controls="pills-ewallet" aria-selected="false">E-wallet (Ví điện tử)</button>
+      </li>
+
+    </ul>
+    <div class="tab-content tab-parent" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-banktf" role="tabpanel" aria-labelledby="pills-banktf-tab">
+        <div class="d-flex align-items-start">
+          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active" id="v-pills-tpb-tab" data-bs-toggle="pill" data-bs-target="#v-pills-tpb"
+              type="button" role="tab" aria-controls="v-pills-tpb" aria-selected="true">TPBank</button>
+            <button class="nav-link" id="v-pills-timo-tab" data-bs-toggle="pill" data-bs-target="#v-pills-timo"
+              type="button" role="tab" aria-controls="v-pills-timo" aria-selected="false">Timo</button>
+
+          </div>
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-tpb" role="tabpanel" aria-labelledby="v-pills-tpb-tab">
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <th scope="row">BankName(Ngân hàng):</th>
+                    <td class="bank_no">NH TMCP Tiên Phong</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">AccName(Chủ TK):</th>
+                    <td>TA HONG TRUNG</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">AccNo(Số TK):</th>
+                    <td class="bank_no">04900082401</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2">
+                      <img src="img/tpbank.jpg" alt="TPBANK" class="img_bank">
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="v-pills-timo" role="tabpanel" aria-labelledby="v-pills-timo-tab">
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <th scope="row">BankName(Ngân hàng):</th>
+                    <td class="bank_no">NH TMCP Bản Việt</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">AccName(Chủ TK):</th>
+                    <td>TA HONG TRUNG</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">AccNo(Số TK):</th>
+                    <td class="bank_no">8007041065529</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2">
+                      <img src="img/timo.jpg" alt="TPBANK" class="img_bank">
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="pills-ewallet" role="tabpanel" aria-labelledby="pills-ewallet-tab">
+
+        <div class="d-flex align-items-start">
+          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active" id="v-pills-momo-tab" data-bs-toggle="pill" data-bs-target="#v-pills-momo"
+              type="button" role="tab" aria-controls="v-pills-momo" aria-selected="true">Momo</button>
+            <button class="nav-link" id="v-pills-zalopay-tab" data-bs-toggle="pill" data-bs-target="#v-pills-zalopay"
+              type="button" role="tab" aria-controls="v-pills-zalopay" aria-selected="false">Zalopay</button>
+            <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages"
+              type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Shopeepay</button>
+            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings"
+              type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">ViettelMoney</button>
+          </div>
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-momo" role="tabpanel" aria-labelledby="v-pills-momo-tab">
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <th scope="row">TA HONG TRUNG</th>
+                    <td class="bank_no">0969345913</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2">
+                      <img src="img/momo.jpg" alt="MOMO" class="img_bank">
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="v-pills-zalopay" role="tabpanel" aria-labelledby="v-pills-zalopay-tab">
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <th scope="row">TA HONG TRUNG</th>
+                    <td class="bank_no">0969345913</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2">
+                      <img src="img/zalopay.jpg" alt="MOMO" class="img_bank">
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <th scope="row">TA HONG TRUNG</th>
+                    <td class="bank_no">0969345913</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2">
+                      <img src="img/shopeepay.jpg" alt="MOMO" class="img_bank">
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <th scope="row">TA HONG TRUNG</th>
+                    <td class="bank_no">0969345913</td>
+                  </tr>
+                  <tr>
+                    <th colspan="2">
+                      <img src="img/viettelmoney.jpg" alt="MOMO" class="img_bank">
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
